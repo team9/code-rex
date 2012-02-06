@@ -23,7 +23,7 @@ $user = $facebook->getUser();
 }*/
 
 function rx_getDbConn() {
-	$con = mysql_connect("localhost","csehi","uniqu3numb3r");
+	$con = mysql_connect("localhost","csehi","passwd");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
