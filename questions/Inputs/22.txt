@@ -1,0 +1,1 @@
+It prints words in order, but letters of the words backwards so we end up with backward words in right order.

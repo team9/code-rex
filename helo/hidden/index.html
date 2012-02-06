@@ -1,0 +1,50 @@
+<!--
+
+PLEASE NOTE:
+You haven't solved the puzzle yet, this 
+is just a decoy page. Keep trying.
+
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Nice try!</title>
+<style type="text/css">
+body{
+font:bold 1.3em georgia,serif;
+}
+a:link{color:#000;}
+a:visited{color:#000;}
+a:hover{color:#ff0;}
+a:active{color:#000;}
+</style>
+<script type="text/javascript">
+var bad = true;
+function swapStyle()
+{
+	var bgStyleBad = "#55f";
+	var bgStyleGood = "#aab7ff";
+	var fgStyleBad = "#f00";
+	var fgStyleGood = "#900";
+	var sty = document.body.style;
+	sty.backgroundColor = (bad) ? bgStyleGood : bgStyleBad;
+	sty.color = (bad) ? fgStyleGood : fgStyleBad;
+	bad = !bad;
+}
+</head>
+<body style="background:#55f;color:#f00;">
+
+<h1>I wondered if you'd think of that.</h1>
+
+<h2>I guess I thought of it first, though, didn't I?</h2>
+
+<h3>Here's a bit of graphic design trivia:</h3>
+
+<p>
+The eye contains two types of light-sensitive cells: rods and cones. Rods only see detail, contrast, edges, lines and so on. Cones only see color. Without cones you'd see the world in sharp detail but in black and white. Without rods you'd only see blotchy patches of color and would have trouble discerning shapes. Looking at red text on a blue background is like not having rods, because the rods can't tell the difference between the two colors. If some contrast is added then the rods start working: <a href="#" onclick="swapStyle();return false;">Click Here to Demonstrate</a>.
+</p>
+
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+It prints sdrow in order, but letters of the sdrow backwards so we end up with backward sdrow in right order.
